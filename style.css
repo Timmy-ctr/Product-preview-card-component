@@ -1,0 +1,48 @@
+html {overflow-y: hidden;overflow-x: hidden;height:100%;margin:0;} 
+body{margin:0;background-color: hsl(30, 38%, 92%);height:100%;}
+
+main{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 775px;
+ margin-left: auto;
+ margin-right: auto;
+ height: 100%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:baseline;
+    margin: auto;
+}
+img{width: 50%;height: 100%;border-top-left-radius: 7%;
+    border-bottom-left-radius:7%;}
+.billy{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    height: 100%;
+    font-size:14px;
+    padding: 1em;
+    border-top-right-radius: 7%;
+    border-bottom-right-radius:7%;
+}
+.perfume{
+    letter-spacing: 5px;
+}
+.perfume, .text {
+    color: gray;
+}
+.button{
+    background-color: hsl(158, 36%, 37%);
+    align-items: baseline;
+    color: hsl(0, 0%, 100%);
+    border-radius: 7%;
+    margin:1em;
+    justify-content: center;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
